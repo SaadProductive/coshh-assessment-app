@@ -83,7 +83,7 @@ export default function ReviewAndAdjust({
           value={controlMeasures}
           onChange={(e) => setControlMeasures(e.target.value)}
           rows={6}
-          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none font-mono text-sm"
+          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none font-mono text-sm text-gray-900 bg-white"
         />
         <p className="text-xs text-gray-500 mt-1.5">
           Pre-filled from our substance library. Edit to match your actual
@@ -99,7 +99,7 @@ export default function ReviewAndAdjust({
           value={ppeRequired}
           onChange={(e) => setPpeRequired(e.target.value)}
           rows={3}
-          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none font-mono text-sm"
+          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none font-mono text-sm text-gray-900 bg-white"
         />
       </div>
 

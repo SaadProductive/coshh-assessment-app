@@ -53,7 +53,7 @@ export default function WorkplaceQuestions({
             onChange={(e) => setLocal({ ...local, howUsed: e.target.value })}
             placeholder="e.g. Used to disinfect surfaces and equipment after each client"
             rows={2}
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none text-gray-900 bg-white"
           />
         </Field>
 
@@ -85,7 +85,7 @@ export default function WorkplaceQuestions({
               setLocal({ ...local, quantityUsed: e.target.value })
             }
             placeholder="e.g. 50ml diluted in a spray bottle"
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none text-gray-900 bg-white"
           />
         </Field>
 
@@ -97,7 +97,7 @@ export default function WorkplaceQuestions({
               setLocal({ ...local, whoIsExposed: e.target.value })
             }
             placeholder="e.g. Cleaning staff, stylists, occasionally clients"
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none text-gray-900 bg-white"
           />
         </Field>
 
@@ -109,7 +109,7 @@ export default function WorkplaceQuestions({
               setLocal({ ...local, durationOfExposure: e.target.value })
             }
             placeholder="e.g. 5-10 minutes per application"
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none text-gray-900 bg-white"
           />
         </Field>
 
@@ -121,7 +121,7 @@ export default function WorkplaceQuestions({
             }
             placeholder="e.g. We always wear gloves and work near an open window"
             rows={2}
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none text-gray-900 bg-white"
           />
         </Field>
 
@@ -133,7 +133,7 @@ export default function WorkplaceQuestions({
               setLocal({ ...local, currentPpeAvailable: e.target.value })
             }
             placeholder="e.g. Nitrile gloves provided, no eye protection currently"
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none text-gray-900 bg-white"
           />
         </Field>
       </div>

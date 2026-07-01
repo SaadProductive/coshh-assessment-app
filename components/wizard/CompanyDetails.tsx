@@ -48,7 +48,7 @@ export default function CompanyDetails({
             value={companyName}
             onChange={(e) => setCompanyName(e.target.value)}
             placeholder="e.g. Bright & Beautiful Hair Salon Ltd"
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none text-gray-900 bg-white"
           />
         </div>
 
@@ -61,7 +61,7 @@ export default function CompanyDetails({
             value={assessorName}
             onChange={(e) => setAssessorName(e.target.value)}
             placeholder="Your full name"
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none"
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:border-blue-800 focus:outline-none text-gray-900 bg-white"
           />
           <p className="text-xs text-gray-500 mt-1.5">
             This should be the person who carried out the assessment — ideally

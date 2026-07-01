@@ -81,7 +81,7 @@ export default function SubstanceSearch({ tradeType, onSelect, onBack }: Props) 
         onChange={(e) => handleSearch(e.target.value)}
         placeholder="Start typing..."
         autoFocus
-        className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-lg focus:border-blue-800 focus:outline-none mb-4"
+        className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-lg focus:border-blue-800 focus:outline-none mb-4 text-gray-900 bg-white"
       />
 
       {loading ? (
